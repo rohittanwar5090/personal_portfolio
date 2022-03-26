@@ -5,7 +5,7 @@ import {AiOutlineUserDelete} from 'react-icons/ai';
 import {MdOutlineWorkOutline} from 'react-icons/md';
 import {AiOutlinePhone} from 'react-icons/ai';
 const Nav = () => {
-  const [navactive, setNavactive] = useState('#')
+  // const [navactive, setNavactive] = useState('#')
   return (
     <div className='papa'>
         <nav>
