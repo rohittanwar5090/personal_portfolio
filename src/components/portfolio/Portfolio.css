@@ -1,0 +1,55 @@
+#portfolio{
+    height: 80vh;
+}
+.portfoliocontainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    margin-top: 5rem;
+}
+.portfolioitem{
+    border: 1px solid white;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    
+}
+#portfolio>h1{
+    text-align: center;
+}
+.portfolioitem > h3,a {
+    display: flex;
+    justify-content: center;
+}
+.portfolioitem a:hover{
+    
+    border: 1px solid white;
+    
+    border-radius: 1rem;
+    
+}
+.portfolioitemimage{
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+.portfolioitem h3{
+    margin: 1rem 0 1rem;
+
+}
+
+@media screen and (max-width: 1024px) {
+    #portfolio{
+        height: 35vh;
+    }
+    .portfoliocontainer{
+        grid-template-columns: 1fr 1fr ;
+    }   
+}
+@media screen and (max-width: 600px) {
+    #portfolio{
+        height: 110vh;
+    }
+    .portfoliocontainer{
+        grid-template-columns: 1fr  ;
+    }   
+        
+}

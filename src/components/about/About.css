@@ -1,0 +1,86 @@
+
+#about>h1{
+    display: flex;
+    justify-content: center;
+}
+#about{
+    /* border: 1px solid blue; */
+    height: 80vh;
+}
+.abouttcontainer{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+.aboutme{
+    width: 100%;
+    aspect-ratio: 1/1;
+    
+}
+.aboutme>img{
+    height: 35rem;
+    width: 25rem;
+}
+.aboutcards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+.aboutcard{
+    border: 0.8px solid white ;    
+    border-radius: 1rem;
+    padding: 2rem;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 10rem;
+}
+.aboutcard:hover{
+    color: black;
+    background: white;
+    cursor: pointer;
+}
+.aboutcontent>p{
+    margin: 5rem 0 2.6rem;
+    color: white;
+}
+/* media queries */
+@media screen and (max-width: 1024px) {
+    #about{
+        height: 120vh;
+        /* background: red; */
+    }
+    .abouttcontainer{
+          grid-template-columns: 1fr;
+          gap: 0;
+    }
+    .aboutcard{
+        margin-top: 0rem;
+    }
+    .aboutme{
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+    .aboutcontent>p{
+        margin: 1rem 0 1.5rem;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    #about{
+        height: 110vh;
+        background: green;
+        margin-bottom: 10rem;
+    }
+    .aboutme{
+        width: 50%;
+        margin:0  auto 3rem ;
+    }
+    .aboutcards{
+        text-align: center;
+    }
+    .aboutcontent>p{
+        margin: 1.5rem 0;
+        text-align: center;
+    }
+    
+}
