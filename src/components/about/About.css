@@ -46,7 +46,7 @@
 /* media queries */
 @media screen and (max-width: 1024px) {
     #about{
-        height: 120vh;
+        height: 10vh;
         /* background: red; */
     }
     .abouttcontainer{
