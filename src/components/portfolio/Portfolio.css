@@ -1,5 +1,5 @@
 #portfolio{
-    height: 80vh;
+    height: 85vh;
 }
 .portfoliocontainer{
     display: grid;
@@ -38,7 +38,10 @@
 
 @media screen and (max-width: 1024px) {
     #portfolio{
-        height: 35vh;
+        height: 50vh;
+        
+        margin-top: 55rem;
+
     }
     .portfoliocontainer{
         grid-template-columns: 1fr 1fr ;
@@ -46,7 +49,7 @@
 }
 @media screen and (max-width: 600px) {
     #portfolio{
-        height: 110vh;
+        height: 90vh;
     }
     .portfoliocontainer{
         grid-template-columns: 1fr  ;

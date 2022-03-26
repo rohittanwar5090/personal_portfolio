@@ -46,8 +46,7 @@
 /* media queries */
 @media screen and (max-width: 1024px) {
     #about{
-        height: 10vh;
-        
+        height: 10vh;        
     }
     .abouttcontainer{
           grid-template-columns: 1fr;
@@ -67,8 +66,7 @@
 }
 @media screen and (max-width: 600px) {
     #about{
-        height: 110vh;
-
+        height: 35vh;
         margin-bottom: 10rem;
     }
     .aboutme{

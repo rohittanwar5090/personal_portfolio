@@ -9,7 +9,7 @@ const About = () => {
   return (
     <section id='about'>
       <h5>Hola!</h5>
-      <h1>À PROPOS DE MOI</h1>
+      <h1>About Me</h1>
       <div className='container abouttcontainer' >
         <div className='aboutme'>
           <img src={me} alt="" />
@@ -29,7 +29,7 @@ const About = () => {
               <h5>Redux</h5>
             </article>
           </div>
-          <p>Bonjour, Je m'appelle Rohit. I am a front end web developer.
+          <p>Hello! I am a front end web developer.
             I see website from another perspective, I like to get away from the pervasive way of making webpages.
             I love to work on ReactJS, Redux, Hooks etc.
           </p>
