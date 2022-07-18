@@ -17,11 +17,11 @@ const Portfolio = () => {
         </article>
         <article className='portfolioitem'>
           <div className="portfolioitemimage">
-            <img src="https://nexoza.co/wp-content/uploads/2021/10/new-logo-150x142.png" alt="" />
+            <img src="https://wecarelife.in/wp-content/uploads/2019/10/cropped-Screenshot-2019-10-03-at-11.40.14-PM.png" alt="" />
           </div>
-          <h3>NEXOZA</h3>
+          <h3>We Care Life</h3>
           <div className='portfolioitemcta'>
-            <a href="https://nexoza.co/">Live Webstie</a>
+            <a href="https://wecarelife.in/">Live Webstie</a>
           </div>
         </article>
       </div>
