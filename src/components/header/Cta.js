@@ -1,5 +1,5 @@
 import React from 'react'
-import  resume from '../../rohitupdated.pdf'
+import  resume from '../../ROHIT_TANWAR.pdf'
 
 const Cta = () => {
   return (
